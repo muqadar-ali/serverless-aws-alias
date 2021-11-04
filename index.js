@@ -35,7 +35,7 @@ class AwsAlias {
 		 */
 		this._stage = this._provider.getStage();
 		this._alias = this._options.alias || this._stage;
-		this._serverless.service.provider.alias = this._alias;
+		//this._serverless.service.provider.alias = this._alias;
 
 		/**
 		 * Load stack helpers from Serverless installation.
